@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lando</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Lando - Landing Page Project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-5.3.3/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
+<link rel="stylesheet" type="text/css" href="plugins/Swiper/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+    <div class="background_image hero_background" style="background-image:url(images/hero.png)"></div>
+
+    <!-- Menu -->
+    <div id="menu" class="menu">
+        <div class="menu_container d-flex flex-column align-items-center justify-content-start">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="header_container d-flex flex-row align-items-center justify-content-between">
+                        <a href="/" class="site-logo d-flex align-items-center text-decoration-none" aria-label="Lando Home">
+                            <svg class="css-ze2te4 css-qd6ojx" viewBox="0 0 100 100.00161915025808"><g transform="translate(-5.5561602055083155, -5.556010264564914) scale(1.1111270294586164)" class="css-1e98oqk" fill="#ffffff"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M34.651,34.651C45.443,23.861,50.439,11.36,45.81,6.731  c-4.631-4.635-17.138,0.361-27.927,11.153C7.093,28.675,2.097,41.179,6.73,45.808C11.359,50.438,23.863,45.442,34.651,34.651z"></path><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M82.113,82.116C92.904,71.326,97.9,58.823,93.27,54.194  c-4.631-4.632-17.129,0.363-27.922,11.156c-10.791,10.791-15.786,23.292-11.158,27.92C58.822,97.903,71.326,92.911,82.113,82.116z"></path><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M34.651,65.351C23.863,54.558,11.359,49.562,6.73,54.194  c-4.633,4.629,0.363,17.134,11.153,27.922C28.674,92.911,41.179,97.903,45.81,93.271C50.443,88.639,45.443,76.142,34.651,65.351z"></path><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M82.113,17.885C71.326,7.093,58.822,2.096,54.189,6.731  c-4.627,4.629,0.367,17.13,11.158,27.919C76.141,45.442,88.643,50.438,93.27,45.808C97.902,41.177,92.908,28.675,82.113,17.885z"></path><path xmlns="http://www.w3.org/2000/svg" d="M50.001,14.6c0,19.552-15.853,35.401-35.401,35.401c19.552,0,35.401,15.849,35.401,35.398  c0-19.549,15.848-35.398,35.397-35.398C65.85,50.001,50.001,34.152,50.001,14.6z"></path></g></svg>
+                            <span class="logo-text">Lando</span>
+                        </a>
+                        <nav id="main_nav" class="main_nav">
+                            <ul class="d-flex flex-row">
+                                <li class="active"><a href="#" data-scroll-to="#hero">Home</a></li>
+                                <li><a href="#" data-scroll-to="#services">Services</a></li>
+                                <li><a href="#" data-scroll-to="#features">Features</a></li>
+                                <li><a href="#" data-scroll-to="#work">Work</a></li>
+                                <li><a href="#" data-scroll-to="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <a href="#contact" class="header_btn btn btn-lg btn_outline">Book a Call</a>
+                        <button id="navbar-toggler" class="navbar-toggler d-sm-none d-sm-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-default">
+                                <i class="bi-list"></i>
+                            </span>
+                            <span class="navbar-toggler-toggled">
+                                <i class="bi-x"></i>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="hero-heading text-center">Best Landing Page For Your Needs on the Market</h1>
+                    <p class="hero-subtext text-center">A modern, high-performance landing page built for speed, flexibility, and conversions. Perfect for any business or project.</p>
+                    <a href="#contact" class="hero_btn btn btn-lg btn_1">Start a Project</a>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Slider -->
+        <div class="hero_slider_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="swiper hero_swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="hero_slide">
+                                        <div>
+                                            <img src="images/hero_slide_1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="hero_slide">
+                                        <div>
+                                            <img src="images/hero_slide_2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="hero_slide">
+                                        <div>
+                                            <img src="images/hero_slide_3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="hero_slide">
+                                        <div>
+                                            <img src="images/hero_slide_1.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="hero_slide">
+                                        <div>
+                                            <img src="images/hero_slide_2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="hero_slide">
+                                        <div>
+                                            <img src="images/hero_slide_3.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section id="stats" class="stats">
+        <div class="container">
+            <div class="row">
+
+                <!-- Milestone -->
+                <div class="col-lg-3 col-12 stats_col">
+                    <div class="stats_box stats_box_lg d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="stats_text_large">Trusted by thousands worldwide!</h4>
+                    </div>
+                </div>
+
+                <!-- Milestone -->
+                <div class="col-lg-3 col-4 stats_col">
+                    <div class="stats_box text-center d-flex flex-column align-items-center justify-content-center">
+                        <div class="stats_icon"><img src="images/stats_1.png" alt="stats icon"></div>
+                        <div class="stats_counter" data-end-value="99" data-sign-after="%">0</div>
+                        <div class="stats_text">Satisfaction</div>
+                    </div>
+                </div>
+
+                <!-- Milestone -->
+                <div class="col-lg-3 col-4 stats_col">
+                    <div class="stats_box text-center d-flex flex-column align-items-center justify-content-center">
+                        <div class="stats_icon"><img src="images/stats_2.png" alt="stats icon"></div>
+                        <div class="stats_counter" data-end-value="11" data-sign-after="k+">0</div>
+                        <div class="stats_text">Downloads</div>
+                    </div>
+                </div>
+
+                <!-- Milestone -->
+                <div class="col-lg-3 col-4 stats_col">
+                    <div class="stats_box text-center d-flex flex-column align-items-center justify-content-center">
+                        <div class="stats_icon"><img src="images/stats_3.png" alt="stats icon"></div>
+                        <div class="stats_counter" data-end-value="12" data-sign-after="M">0</div>
+                        <div class="stats_text">Page Views</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="background_image services_background" style="background-image:url(images/services.jpg)"></div>
+
+        <!-- Section Header -->
+        <div class="section-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="section-subtitle">Our Expertise</p>
+                        <h2 class="section-title">Our Services</h2>
+                        <p class="section-description">We provide high-quality solutions tailored to your needs. From design to development, we've got you covered.</p>
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+        <!-- Boxes -->
+        <div class="boxes">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Service -->
+                    <div class="col-md-6 col-xl-4">
+                        <div class="box">
+                            <img src="images/services_1.png" alt="service icon">
+                            <h3 class="service-title">Web Design</h3>
+                            <p class="service-text">Beautiful, responsive websites tailored to your brand.</p>
+                        </div>
+                    </div>
+
+                    <!-- Service -->
+                    <div class="col-md-6 col-xl-4">
+                        <div class="box">
+                            <img src="images/services_2.png" alt="service icon">
+                            <h3 class="service-title">UI/UX Design</h3>
+                            <p class="service-text">User-friendly, intuitive, engaging digital experiences.</p>
+                        </div>
+                    </div>
+
+                    <!-- Service -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box">
+                            <img src="images/services_3.png" alt="service icon">
+                            <h3 class="service-title">Branding</h3>
+                            <p class="service-text">Strong visual identity for lasting brand recognition.</p>
+                        </div>
+                    </div>
+
+                    <!-- Service -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box">
+                            <img src="images/services_4.png" alt="service icon">
+                            <h3 class="service-title">Ecommerce</h3>
+                            <p class="service-text">Sell online effortlessly with powerful store solutions.</p>
+                        </div>
+                    </div>
+
+                    <!-- Service -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box">
+                            <img src="images/services_5.png" alt="service icon">
+                            <h3 class="service-title">Web Development</h3>
+                            <p class="service-text">Fast, secure, and scalable websites built right.</p>
+                        </div>
+                    </div>
+
+                    <!-- Service -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="box">
+                            <img src="images/services_6.png" alt="service icon">
+                            <h3 class="service-title">Web Hosting</h3>
+                            <p class="service-text">Reliable, high-speed hosting with 24/7 support.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="features">
+
+        <!-- Section Header -->
+        <div class="section-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="section-subtitle">Features</p>
+                        <h2 class="section-title">Template Features</h2>
+                        <p class="section-description">Discover a modern, high-performance landing page template designed for speed, responsiveness, and seamless customization.</p>
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+        <!-- Boxes -->
+        <div class="boxes">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Small Box -->
+                    <div class="col-xxl-3 col-md-6">
+                        <div class="small_box d-flex flex-row">
+                            <img src="images/features_1.png" alt="feature icon">
+                            <div>
+                                <h3 class="feature-title h4">Responsive</h3>
+                                <p class="feature-subtitle">Mobile & Desktop</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Small Box -->
+                    <div class="col-xxl-3 col-md-6">
+                        <div class="small_box d-flex flex-row">
+                            <img src="images/features_2.png" alt="feature icon">
+                            <div>
+                                <h3 class="feature-title h4">SEO Optimized</h3>
+                                <p class="feature-subtitle">Rank Higher in Search</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Small Box -->
+                    <div class="col-xxl-3 col-md-6">
+                        <div class="small_box d-flex flex-row">
+                            <img src="images/features_3.png" alt="feature icon">
+                            <div>
+                                <h3 class="feature-title h4">Lightning Fast</h3>
+                                <p class="feature-subtitle">Optimized for Speed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Small Box -->
+                    <div class="col-xxl-3 col-md-6">
+                        <div class="small_box d-flex flex-row">
+                            <img src="images/features_4.png" alt="feature icon">
+                            <div>
+                                <h3 class="feature-title h4">Customizable</h3>
+                                <p class="feature-subtitle">Easy to Edit & Adapt</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Small Box -->
+                    <div class="col-xxl-3 col-md-6">
+                        <div class="small_box d-flex flex-row">
+                            <img src="images/features_5.png" alt="feature icon">
+                            <div>
+                                <h3 class="feature-title h4">Modern Design</h3>
+                                <p class="feature-subtitle">Sleek & Professional</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Small Box -->
+                    <div class="col-xxl-3 col-md-6">
+                        <div class="small_box d-flex flex-row">
+                            <img src="images/features_6.png" alt="feature icon">
+                            <div>
+                                <h3 class="feature-title h4">Clean Code</h3>
+                                <p class="feature-subtitle">Developer-Friendly</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Small Box -->
+                    <div class="col-xxl-3 col-md-6">
+                        <div class="small_box d-flex flex-row">
+                            <img src="images/features_7.png" alt="feature icon">
+                            <div>
+                                <h3 class="feature-title h4">Cross-Browser</h3>
+                                <p class="feature-subtitle">Works Everywhere</p>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Small Box -->
+                    <div class="col-xxl-3 col-md-6">
+                        <div class="small_box d-flex flex-row">
+                            <img src="images/features_8.png" alt="feature icon">
+                            <div>
+                                <h3 class="feature-title h4">Free Updates</h3>
+                                <p class="feature-subtitle">Always Up-to-Date</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="work">
+
+        <!-- Section Header -->
+        <div class="section-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="section-subtitle">Projects</p>
+                        <h2 class="section-title">Featured Work</h2>
+                        <p class="section-description">Explore a selection of beautifully crafted websites and digital projects we've delivered for clients across industries.</p>
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+        <!-- Work Cards -->
+        <div class="work_cards">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Work Card -->
+                    <div class="col-lg-6">
+                        <div class="work_card">
+                            <div class="work_image_outer">
+                                <div class="work_image_inner">
+                                    <div class="work_image" style="background-image: url('images/hero_slide_1.png');"></div>
+                                </div>
+                                <div class="work_categories d-flex flex-row">
+                                    <div class="work_category"><span>Branding</span></div>
+                                    <div class="work_category"><span>Design</span></div>
+                                </div>
+                            </div>
+                            <div class="work_title_container">
+                                <h3 class="work_title">Nox Website</h3>
+                                <p class="work_description">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Card -->
+                    <div class="col-lg-6">
+                        <div class="work_card">
+                            <div class="work_image_outer">
+                                <div class="work_image_inner">
+                                    <div class="work_image" style="background-image: url('images/hero_slide_2.png');"></div>
+                                </div>
+                                <div class="work_categories d-flex flex-row">
+                                    <div class="work_category"><span>Development</span></div>
+                                    <div class="work_category"><span>Design</span></div>
+                                </div>
+                            </div>
+                            <div class="work_title_container">
+                                <h3 class="work_title">Vanguard Landing Page</h3>
+                                <p class="work_description">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Card -->
+                    <div class="col-lg-6">
+                        <div class="work_card">
+                            <div class="work_image_outer">
+                                <div class="work_image_inner">
+                                    <div class="work_image" style="background-image: url('images/hero_slide_3.png');"></div>
+                                </div>
+                                <div class="work_categories d-flex flex-row">
+                                    <div class="work_category"><span>Design</span></div>
+                                </div>
+                            </div>
+                            <div class="work_title_container">
+                                <h3 class="work_title">Wynn Project</h3>
+                                <p class="work_description">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Work Card -->
+                    <div class="col-lg-6">
+                        <div class="work_card">
+                            <div class="work_image_outer">
+                                <div class="work_image_inner">
+                                    <div class="work_image" style="background-image: url('images/hero_slide_4.png');"></div>
+                                </div>
+                                <div class="work_categories d-flex flex-row">
+                                    <div class="work_category"><span>Development</span></div>
+                                </div>
+                            </div>
+                            <div class="work_title_container">
+                                <h3 class="work_title">Coursette Template</h3>
+                                <p class="work_description">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col text-center">
+                        <a href="#contact" class="work_btn btn btn-lg btn_2">Start a Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    <!-- Brands -->
+    <section id="brands" class="brands">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="brands_slider_container">
+                        <div class="swiper brands_swiper">
+                            <div class="swiper-wrapper">
+
+                                <!-- Swiper Slide -->
+                                <div class="swiper-slide">
+                                    <div class="brands_slide d-flex flex-column align-items-center justify-content-center">
+                                        <div>
+                                            <img src="images/brands_1.png" alt="brands logo">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Swiper Slide -->
+                                <div class="swiper-slide">
+                                    <div class="brands_slide d-flex flex-column align-items-center justify-content-center">
+                                        <div>
+                                            <img src="images/brands_2.png" alt="brands logo">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Swiper Slide -->
+                                <div class="swiper-slide">
+                                    <div class="brands_slide d-flex flex-column align-items-center justify-content-center">
+                                        <div>
+                                            <img src="images/brands_3.png" alt="brands logo">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Swiper Slide -->
+                                <div class="swiper-slide">
+                                    <div class="brands_slide d-flex flex-column align-items-center justify-content-center">
+                                        <div>
+                                            <img src="images/brands_4.png" alt="brands logo">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Swiper Slide -->
+                                <div class="swiper-slide">
+                                    <div class="brands_slide d-flex flex-column align-items-center justify-content-center">
+                                        <div>
+                                            <img src="images/brands_5.png" alt="brands logo">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Swiper Slide -->
+                                <div class="swiper-slide">
+                                    <div class="brands_slide d-flex flex-column align-items-center justify-content-center">
+                                        <div>
+                                            <img src="images/brands_1.png" alt="brands logo">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Swiper Slide -->
+                                <div class="swiper-slide">
+                                    <div class="brands_slide d-flex flex-column align-items-center justify-content-center">
+                                        <div>
+                                            <img src="images/brands_2.png" alt="brands logo">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+
+        <!-- Section Header -->
+        <div class="section-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="section-subtitle">Feedback</p>
+                        <h2 class="section-title">What They Say</h2>
+                        <p class="section-description">Built for success, trusted by many. See why people choose our template for their projects and businesses.</p>
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+        <div class="testimonials_container">
+            <div class="testimonials_glow glow"></div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="testimonials_slider_container">
+
+                            <!-- Testimonials Slider -->
+                            <div class="swiper testimonials_swiper">
+                                <div class="swiper-wrapper">
+
+                                    <!-- Swiper Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonials_slide">
+                                            <div class="user_pic">
+                                                <div class="user_pic_inner">
+                                                    <img src="images/user_1.png" alt="user pic">
+                                                </div>
+                                            </div>
+                                            <div class="rating">★★★★★</div>
+                                            <h3 class="testimonial_title">Absolutely stunning work!</h3>
+                                            <p class="testimonial_desc">"This template saved me hours of work! Easy to use, fully responsive, and absolutely stunning."</p>
+                                            <p class="testimonial_user">Sarah M. <span>Creative Director</span></p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Swiper Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonials_slide">
+                                            <div class="user_pic">
+                                                <div class="user_pic_inner">
+                                                    <img src="images/user_2.png" alt="user pic">
+                                                </div>
+                                            </div>
+                                            <div class="rating">★★★★★</div>
+                                            <h3 class="testimonial_title">A Game Changer!</h3>
+                                            <p class="testimonial_desc">"Customization was effortless, and the support team was amazing! Highly recommended!"</p>
+                                            <p class="testimonial_user">James R. <span>Small Business Owner</span></p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Swiper Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonials_slide">
+                                            <div class="user_pic">
+                                                <div class="user_pic_inner">
+                                                    <img src="images/user_3.png" alt="user pic">
+                                                </div>
+                                            </div>
+                                            <div class="rating">★★★★★</div>
+                                            <h3 class="testimonial_title">Incredible Attention to Detail</h3>
+                                            <p class="testimonial_desc">"The design is sleek, modern, and pixel-perfect. Works beautifully on all devices"</p>
+                                            <p class="testimonial_user">Monica T. <span>UX Designer</span></p>
+                                        </div>
+                                    </div>
+
+                                    <!-- Swiper Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="testimonials_slide">
+                                            <div class="user_pic">
+                                                <div class="user_pic_inner">
+                                                    <img src="images/user_1.png" alt="user pic">
+                                                </div>
+                                            </div>
+                                            <div class="rating">★★★★★</div>
+                                            <h3 class="testimonial_title">Absolutely stunning work!</h3>
+                                            <p class="testimonial_desc">"This template saved me hours of work! Easy to use, fully responsive, and absolutely stunning."</p>
+                                            <p class="testimonial_user">Sarah M. <span>Creative Director</span></p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="testimonials_swiper_navigation d-flex flex-row align-items-center justify-content-center">
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="pricing">
+
+        <!-- Section Header -->
+        <div class="section-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="section-subtitle">Plans</p>
+                        <h2 class="section-title">Simple Pricing</h2>
+                        <p class="section-description">Transparent, flexible, and built for everyone. Choose a plan that fits your needs—no hidden fees, no hassle.</p>
+                    </div>
+                </div>
+            </div>        
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="pricing_cards">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Pricing Card -->
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="pricing_card">
+                            <div class="pricing_card_inner gradient_1">
+                                <h3 class="pricing_title">Starter Pack</h3>
+                                <p class="pricing_desc">For individuals and small projects looking for a solid foundation.</p>
+                                <div class="price_container d-flex flex-row align-items-center">
+                                    <p class="price">$49</p>
+                                    <span>monthly</span>
+                                </div>
+                                <ul class="pricing_features">
+                                    <li><img src="images/double_check.png" alt=""><span>Essential features</span></li>
+                                    <li><img src="images/double_check.png" alt=""><span>Mobile-friendly design</span></li>
+                                    <li><img src="images/double_check_empty.png" alt=""><span>Standard support</span></li>
+                                    <li><img src="images/double_check_empty.png" alt=""><span>Advanced customization</span></li>
+                                </ul>
+                                <a href="#" class="pricing_button">Purchase Order</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pricing Card -->
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="pricing_card">
+                            <div class="pricing_card_inner gradient_1">
+                                <div class="popular">most popular</div>
+                                <h3 class="pricing_title">Pro Pack</h3>
+                                <p class="pricing_desc">For individuals and small projects looking for a solid foundation.</p>
+                                <div class="price_container d-flex flex-row align-items-center">
+                                    <p class="price">$99</p>
+                                    <span>monthly</span>
+                                </div>
+                                <ul class="pricing_features">
+                                    <li><img src="images/double_check.png" alt=""><span>Essential features</span></li>
+                                    <li><img src="images/double_check.png" alt=""><span>Mobile-friendly design</span></li>
+                                    <li><img src="images/double_check.png" alt=""><span>Standard support</span></li>
+                                    <li><img src="images/double_check_empty.png" alt=""><span>Advanced customization</span></li>
+                                </ul>
+                                <a href="#" class="pricing_button">Purchase Order</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pricing Card -->
+                    <div class="col-xl-4 col-lg-6">
+                        <div class="pricing_card">
+                            <div class="pricing_card_inner gradient_1">
+                                <h3 class="pricing_title">Ultimate Pack</h3>
+                                <p class="pricing_desc">For individuals and small projects looking for a solid foundation.</p>
+                                <div class="price_container d-flex flex-row align-items-center">
+                                    <p class="price">$149</p>
+                                    <span>monthly</span>
+                                </div>
+                                <ul class="pricing_features">
+                                    <li><img src="images/double_check.png" alt=""><span>Essential features</span></li>
+                                    <li><img src="images/double_check.png" alt=""><span>Mobile-friendly design</span></li>
+                                    <li><img src="images/double_check.png" alt=""><span>Standard support</span></li>
+                                    <li><img src="images/double_check.png" alt=""><span>Advanced customization</span></li>
+                                </ul>
+                                <a href="#" class="pricing_button">Purchase Order</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5">
+                    <div class="faq_title_container">
+
+                        <!-- Section Header -->
+                        <div class="section-header">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="section-subtitle">help center</p>
+                                        <h2 class="section-title">Frequently Asked</h2>
+                                        <p class="section-description">Got questions? We've got answers. Explore the most common questions below or reach out for more details.</p>
+                                    </div>
+                                </div>
+                            </div>        
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <div class="accordions">
+
+                        <!-- Accordion -->
+                        <div class="accordion_container">
+                            <div class="accordion d-flex flex-row align-items-center active" data-icon="chevron-up"><div>Is this template easy to customize?</div></div>
+                            <div class="accordion_panel">
+                                <div>
+                                    <p>Yes! It's built with flexibility in mind, allowing you to tweak colors, layouts, and content effortlessly.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Accordion -->
+                        <div class="accordion_container">
+                            <div class="accordion d-flex flex-row align-items-center"><div>Do I need coding knowledge?</div></div>
+                            <div class="accordion_panel">
+                                <div>
+                                    <p>Not at all! The template is beginner-friendly, but developers can dive in for deeper customization.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion -->
+                        <div class="accordion_container">
+                            <div class="accordion d-flex flex-row align-items-center"><div>Is customer support included?</div></div>
+                            <div class="accordion_panel">
+                                <div>
+                                    <p>Absolutely! All plans come with support, with priority assistance available in Pro and Ultimate plans.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion -->
+                        <div class="accordion_container">
+                            <div class="accordion d-flex flex-row align-items-center"><div>Will my website be mobile-friendly?</div></div>
+                            <div class="accordion_panel">
+                                <div>
+                                    <p>Yes! The template is fully responsive and works seamlessly on all devices.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion -->
+                        <div class="accordion_container">
+                            <div class="accordion d-flex flex-row align-items-center"><div>Can I use this for multiple projects?</div></div>
+                            <div class="accordion_panel">
+                                <div>
+                                    <p>Yes, but the licensing depends on the plan you choose. Ultimate allows unlimited use!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="cta">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="cta_container d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="background_image cta_background" style="background-image:url(images/cta.jpg)"></div>
+                        <div class="cta_content">
+                            <h2 class="cta_title">Your <span>perfect</span> website awaits!</h2>
+                            <p class="cta_subtitle">Fast, customizable, and built for success</p>
+                            <div class="cta_buttons d-flex flex-row align-items-center justify-content-center">
+                                <a href="#" class="cta_button">Start a Project</a>
+                                <a href="#" class="cta_button cta_button_outline">Start a Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row row-eq-col">
+
+                <!-- Contact Content -->
+                <div class="col-xl-5">
+                    <div class="contact_content">
+
+                        <!-- Section Header -->
+                        <div class="section-header">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="contact_header d-flex flex-column align-items-between justify-content-between">
+                                            <div>
+                                                <p class="section-subtitle">contact</p>
+                                                <h2 class="section-title">Get in Touch</h2>
+                                                <p class="section-description">Have a project in mind? Drop a message and let's start something great.</p>
+                                            </div>
+                                            <div class="contact_image">
+                                                <img src="images/contact.jpg" alt="contact image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-xl-7">
+                    <div class="contact_form_container">
+                        <form action="#" class="contact_form" id="contact_form">
+                            <div class="d-flex flex-row align-items-center justify-content-between contact_form_flex">
+                                <div>
+                                    <label for="contact_input_name">First Name*</label>
+                                    <input type="text" id="contact_input_name" class="contact_input contact_input_name" required placeholder="Your first name">
+                                </div>
+                                <div>
+                                    <label for="contact_input_last_name">First Name*</label>
+                                    <input type="text" id="contact_input_last_name" class="contact_input contact_input_last_name" required placeholder="Your last name">
+                                </div>
+                            </div>
+                            <label for="contact_input_email">Your email address*</label>
+                            <input type="email" required class="contact_input contact_input_email" placeholder="Your email">
+                            <label for="contact_input_company">Company</label>
+                            <input type="text" class="contact_input contact_input_company" placeholder="Company name">
+                            <label for="contact_input_message">Message</label>
+                            <textarea type="text" class="contact_input contact_input_message" placeholder="Your message..."></textarea>
+                            <button id="contact_form_button" class="contact_form_button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="footer_glow glow"></div>
+
+        <div class="container footer_container">
+            <div class="row">
+
+                <!-- Footer Info -->
+                <div class="col-lg-6">
+                    <div class="footer_info">
+                        <a href="/" class="site-logo d-flex align-items-center text-decoration-none" aria-label="Lando Home">
+                            <svg class="css-ze2te4 css-qd6ojx" viewBox="0 0 100 100.00161915025808"><g transform="translate(-5.5561602055083155, -5.556010264564914) scale(1.1111270294586164)" class="css-1e98oqk" fill="#ffffff"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M34.651,34.651C45.443,23.861,50.439,11.36,45.81,6.731  c-4.631-4.635-17.138,0.361-27.927,11.153C7.093,28.675,2.097,41.179,6.73,45.808C11.359,50.438,23.863,45.442,34.651,34.651z"></path><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M82.113,82.116C92.904,71.326,97.9,58.823,93.27,54.194  c-4.631-4.632-17.129,0.363-27.922,11.156c-10.791,10.791-15.786,23.292-11.158,27.92C58.822,97.903,71.326,92.911,82.113,82.116z"></path><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M34.651,65.351C23.863,54.558,11.359,49.562,6.73,54.194  c-4.633,4.629,0.363,17.134,11.153,27.922C28.674,92.911,41.179,97.903,45.81,93.271C50.443,88.639,45.443,76.142,34.651,65.351z"></path><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M82.113,17.885C71.326,7.093,58.822,2.096,54.189,6.731  c-4.627,4.629,0.367,17.13,11.158,27.919C76.141,45.442,88.643,50.438,93.27,45.808C97.902,41.177,92.908,28.675,82.113,17.885z"></path><path xmlns="http://www.w3.org/2000/svg" d="M50.001,14.6c0,19.552-15.853,35.401-35.401,35.401c19.552,0,35.401,15.849,35.401,35.398  c0-19.549,15.848-35.398,35.397-35.398C65.85,50.001,50.001,34.152,50.001,14.6z"></path></g></svg>
+                            <span class="logo-text">Lando</span>
+                        </a>
+                        <p>A modern, responsive template built for speed, flexibility, and ease of use.</p>
+                        
+                        <!-- Subscribe Form -->
+                        <form action="#" id="footer_form" class="footer_form d-flex flex-row align-items-center flex-wrap">
+                            <input type="email" id="footer_input" class="footer_input" placeholder="Your Email Address" required>
+                            <button id="footer_button" class="footer_button">Subscribe</button>
+                        </form>
+                        
+                        <nav class="social-links d-flex flex-row align-items-center" aria-label="Social media">
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 1227 1227" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M654.53 592.55 930.65 987.5H817.33L592.01 665.22v-.02l-33.08-47.31-263.21-376.5h113.32l212.41 303.85z" fill="#c2cce5" opacity="1" data-original="#000000" class=""></path><path d="M1094.42 0H132.58C59.36 0 0 59.36 0 132.58v961.84C0 1167.64 59.36 1227 132.58 1227h961.84c73.22 0 132.58-59.36 132.58-132.58V132.58C1227 59.36 1167.64 0 1094.42 0zm-311.8 1040.52L554.61 708.68l-285.47 331.84h-73.78l326.49-379.5-326.49-475.17h249.02l215.91 314.23 270.32-314.23h73.78l-311.33 361.9h-.02l338.6 492.77z" fill="#c2cce5" opacity="1" data-original="#000000" class=""></path></g></svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M437 0H75C33.648 0 0 33.648 0 75v362c0 41.352 33.648 75 75 75h151V331h-60v-90h60v-61c0-49.629 40.371-90 90-90h91v90h-91v61h91l-15 90h-76v181h121c41.352 0 75-33.648 75-75V75c0-41.352-33.648-75-75-75zm0 0" fill="#c2cce5" opacity="1" data-original="#000000" class=""></path></g></svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 176 176" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g data-name="Layer 2"><path d="m118.43 57.57-.22-.22a42.72 42.72 0 0 0-68.28 49.59l1.88 3.7-3.5 17-.05.22 16.89-4 3.85 1.95a42.78 42.78 0 0 0 49.22-8 42.72 42.72 0 0 0 .22-60.19zm-1.72 47.72c-2.07 3.26-5.34 7.24-9.45 8.23-7.2 1.75-18.25.06-32-12.75l-.17-.16C63 89.41 59.86 80.08 60.62 72.68c.42-4.21 3.92-8 6.87-10.49a3.94 3.94 0 0 1 6.15 1.41l4.45 10.06a3.89 3.89 0 0 1-.49 4l-2.25 2.92a3.88 3.88 0 0 0-.35 4.27c1.26 2.2 4.28 5.45 7.63 8.47 3.76 3.39 7.93 6.5 10.57 7.57a3.85 3.85 0 0 0 4.19-.89l2.61-2.63a4 4 0 0 1 3.9-1l10.57 3a4 4 0 0 1 2.24 5.92z" fill="#c2cce5" opacity="1" data-original="#000000" class=""></path><path d="M152 0H24A24 24 0 0 0 0 24v128a24 24 0 0 0 24 24h128a24 24 0 0 0 24-24V24a24 24 0 0 0-24-24zm-9.47 89.3a54.57 54.57 0 0 1-78.82 47.11l-27.55 6.53a2.13 2.13 0 0 1-2.24-.87 2.09 2.09 0 0 1-.33-1.63l5.79-28.11a54.56 54.56 0 1 1 103.15-23z" fill="#c2cce5" opacity="1" data-original="#000000" class=""></path></g></g></svg>
+                            </a>
+                            <a href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0" viewBox="0 0 512.6 512.6" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M227.6 270.06c0 20.56-14.73 37.29-33.25 37.29-18.23 0-33.25-16.73-33.25-37.29 0-20.55 14.73-37.29 33.25-37.29 18.66 0 33.54 16.89 33.25 37.29zM350.53 270.06c0 20.56-14.58 37.29-33.25 37.29-18.23 0-33.25-16.73-33.25-37.29 0-20.55 14.73-37.29 33.25-37.29 18.67 0 33.54 16.89 33.25 37.29z" fill="#c2cce5" opacity="1" data-original="#000000" class=""></path><path d="M457.21 0H55.39C24.8 0 0 24.8 0 55.39v401.82c0 30.59 24.8 55.39 55.39 55.39h401.82c30.59 0 55.39-24.8 55.39-55.39V55.39C512.6 24.8 487.8 0 457.21 0zm-18.12 349.4c-.02.34-.2.64-.48.85-31.64 23.24-62.3 37.35-92.53 46.7-.48.15-1-.03-1.29-.44-6.99-9.72-13.33-19.97-18.89-30.73-.32-.63-.03-1.39.63-1.64a190.04 190.04 0 0 0 28.87-13.74c.73-.43.78-1.47.1-1.97-1.95-1.45-3.89-2.98-5.74-4.51-.35-.28-.82-.34-1.21-.14-59.84 27.64-125.39 27.64-185.93 0-.4-.18-.87-.12-1.2.16-1.85 1.52-3.79 3.04-5.73 4.49-.67.5-.61 1.54.11 1.97 9.22 5.28 18.8 9.94 28.86 13.75.66.25.97 1 .65 1.63-5.44 10.78-11.79 21.03-18.9 30.74-.31.4-.82.58-1.3.43-30.09-9.35-60.74-23.46-92.38-46.7-.27-.21-.46-.53-.49-.87-6.44-69.03 6.7-138.92 54.66-210.58.12-.19.29-.34.5-.42a303.91 303.91 0 0 1 75.3-23.36c.49-.07.97.15 1.21.57 3.27 5.79 7 13.2 9.53 19.26 27.85-4.25 56.14-4.25 84.58 0 2.52-5.93 6.12-13.47 9.38-19.26.24-.44.72-.66 1.21-.57a305.335 305.335 0 0 1 75.3 23.36c.21.08.38.23.48.44 41.78 61.45 62.42 130.77 54.7 210.58z" fill="#c2cce5" opacity="1" data-original="#000000" class=""></path></g></svg>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="col-lg-6 footer_links">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="footer_col">
+                                <p class="footer_col_title">Navigation</p>
+                                <ul>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Work</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer_col">
+                                <p class="footer_col_title">Services</p>
+                                <ul>
+                                    <li><a href="#">Web Design</a></li>
+                                    <li><a href="#">UI/UX Design</a></li>
+                                    <li><a href="#">Branding</a></li>
+                                    <li><a href="#">Ecommerce</a></li>
+                                    <li><a href="#">Web Hosting</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="footer_col">
+                                <p class="footer_col_title">Follow Us</p>
+                                <ul>
+                                    <li><a href="#">Twitter (X)</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Whatsapp</a></li>
+                                    <li><a href="#">Discord</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_extra">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="footer_extra_container d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-between justify-content-start">
+                            <p>Copyright © 2025, All rights reserved.</p>
+                            <p>Designed & Developed by ABThemes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/jquery-3.6.4.min.js"></script>
+<script src="styles/bootstrap-5.3.3/popper.js"></script>
+<script src="styles/bootstrap-5.3.3/bootstrap.min.js"></script>
+<script src="plugins/greensock/gsap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/Swiper/swiper-bundle.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
